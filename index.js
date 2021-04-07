@@ -1,4 +1,5 @@
 exports.assert						= require.resolve('assert/');
+exports.async_hooks                 = require.resolve('async_hooks');
 exports.buffer						= require.resolve('buffer/');
 exports.child_process				= null;
 exports.cluster						= null;
